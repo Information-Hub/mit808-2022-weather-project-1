@@ -1,10 +1,10 @@
-from turtle import color
-import streamlit as st
+import json
+from datetime import date, datetime
+
+import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-import pandas as pd
-from datetime import datetime, date
-import json
+import streamlit as st
 
 
 def app():
